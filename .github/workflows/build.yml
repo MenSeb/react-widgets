@@ -11,7 +11,7 @@ jobs:
     name: Build
     strategy:
       matrix:
-        runs-on: [ubuntu-latest, macos-latest, windows-latest]
+        runs-on: [ubuntu-latest]
       fail-fast: false
     runs-on: ${{ matrix.runs-on }}
     steps:
